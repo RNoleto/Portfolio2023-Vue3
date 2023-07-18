@@ -1,15 +1,15 @@
 <template>
-  <PrimeirComponente/>
+  <Navbar />
 </template>
 
 <script>
-import PrimeirComponente from './components/PrimeirComponente.vue';
+import Navbar from './components/Navbar.vue';
 
 
 export default{
   name: 'App',
-  components: {
-    PrimeirComponente
+  components:{
+    Navbar,
   }
 }
 </script>
