@@ -1,5 +1,6 @@
 <template>
   <Navbar />
+  <router-view />
 </template>
 
 <script>
@@ -13,7 +14,6 @@ export default{
   }
 }
 </script>
-
 <style lang="scss">
 @import './global.scss';
 </style>
