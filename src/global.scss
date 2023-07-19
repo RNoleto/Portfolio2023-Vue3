@@ -1,3 +1,6 @@
+//Imports
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
 //Reset Styles
 * {
   margin: 0;
@@ -11,10 +14,12 @@ a {
 
 html {
   background-color: #fefefe;
+  font-family: 'Poppins';
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  overflow: hidden;
 }
