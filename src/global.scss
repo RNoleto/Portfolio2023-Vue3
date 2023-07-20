@@ -7,13 +7,21 @@
   padding: 0;
 }
 
+:root {
+  --color1: #1f1f20;
+  --color2: #2b4c7e;
+  --color3: #567ebb;
+  --color4: #606d80;
+  --color5: #dce0e6;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
 }
 
 html {
-  background-color: #fefefe;
+  background-color: var(--color5);
   font-family: 'Poppins';
 }
 
