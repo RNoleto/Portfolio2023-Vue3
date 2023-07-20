@@ -71,6 +71,10 @@ export default{
 .container{
   padding: 1rem;
   color: var(--color5);
+
+  .introduction,.tecnologies{
+    box-shadow: 2px 2px 1px rgba(0,0,0, 0.2);
+  }
   .introduction{
     width: auto;
     padding: 1rem;
@@ -104,9 +108,14 @@ export default{
     }
   }
   .tecnologies{
+    margin: 1rem 0;
+
     display: flex;
-    justify-content: center;
-    gap: 0.2rem;
+    justify-content: space-between;
+
+    background-color: var(--color1);
+    border-radius: 15px;
+    padding: 1rem;
     img{
       width: 45px;
     }
