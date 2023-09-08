@@ -30,3 +30,16 @@ html {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+.btn {
+  background-color: var(--color1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--color5);
+  transition: .5s;
+
+  &:hover {
+    background-color: var(--color3);
+    color: var(--color1);
+  }
+}
